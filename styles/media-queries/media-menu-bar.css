@@ -1,0 +1,41 @@
+.menu-bar {
+    position:fixed;
+    bottom: 3rem;
+
+    width: 21.875rem;
+    height: 3.4375rem;
+    padding: 0px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #594546;
+    border-radius: 69px;
+
+    box-sizing: border-box;
+    box-shadow: 0px 14px 56px rgba(0, 0, 0, 0.14);
+
+    z-index: 10000;
+}
+
+.menu-bar div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.menu-bar div:first-child::after {
+    content: '';
+
+    position: absolute;
+    margin-top: 32px;
+
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+    background: rgb(89, 69, 70); 
+}

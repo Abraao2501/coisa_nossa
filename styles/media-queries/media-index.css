@@ -1,0 +1,298 @@
+@media ( max-width: 450px ) {
+    body {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    body header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 2rem;
+
+        background: rgb(244, 215, 217);
+    }
+    body header p {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 1.1rem;
+        color: rgb(183, 154, 155); 
+    }
+    body main section.presentation-video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-top: 2.8rem;
+    }
+    body main section.presentation-video img {
+        width: 22.125rem;
+        height: 12rem;
+        box-shadow: 10px 20px 70px -10px #E1E6E2;
+    }
+    body main section.presentation-video h1 {
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        font-size: 2.8rem;
+        color: rgb(175, 142, 144);
+
+        margin-bottom: 2.1rem;
+    }
+    
+    body main section.logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-top: 2.8rem;
+    }
+    body main section.logo img.logo-bg-transparent {
+        width: 10rem;
+        height: 9.5rem;
+
+    }
+    body main section.logo p {
+        width: 20rem;
+        margin-top: .8rem;
+
+        font-size: 1.1rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        color: rgb(97, 70, 61);
+
+        text-align: center;
+    }
+
+    
+    /*Nossa História*/
+    body main div.bg-brow {
+        height: 25rem;
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: rgba(244, 209, 171, 0.76);
+
+        margin-top: 2.8rem;
+        z-index: 10;
+    }
+
+    body main div.bg-brow section.our-story {
+        margin-top: 2.1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    body main div.bg-brow section.our-story .title-bar {
+        background-color: rgb(251, 243, 230);
+    }
+    h2 {
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        font-size: 3rem;
+        color: rgb(175, 142, 144);
+
+        z-index: 1000;
+    }
+     div.title-bar {
+        background-color: rgb(109, 84, 86);
+
+        width: 17.5rem;
+        height: 1.25rem;
+
+        position: absolute;
+        margin-top: 1.5rem;
+
+        z-index: 100;
+    }
+
+    body main div.bg-brow section.our-story img {
+        margin-top: 2.1rem;
+        width: 22.125rem;
+        height: 12rem;
+    }
+    body main div.bg-brow section.our-story a {
+        margin-top: 2.1rem;
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: rgb(251, 243, 230);
+    }
+
+    /*Clients*/
+    body main  section.client {
+        margin-top: 2.8rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    body main section.client .title-bar {
+        background: rgb(251, 243, 230);
+    }
+    body main section.client div.clients-carousel {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    
+        scroll-behavior: smooth;
+
+        width: 21.875rem;
+        height: 35rem;
+
+        margin-top: 2.1rem;
+    }
+    body main section.client div.clients-carousel  div.clients-carousel-image img{
+        width: 21.875rem;
+        height: 38.75rem;
+    }
+    
+    body main section.client div.clients-carousel div.clients-carousel-image {
+        flex: none;
+        
+        scroll-snap-align: start;
+        pointer-events: none;
+    }
+    body main section.client p {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 1.1rem;
+        color: rgb(175, 142, 144); 
+
+        margin-top: .8rem;
+    }
+    body main section.categories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 2.8rem;
+        
+    }
+    body main section.categories .title-bar {
+        background: rgb(251, 243, 230);
+        z-index: 10;
+    }
+    div.products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 2.1rem;
+    }
+    div.row1,
+    div.row2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        width: 90vw;
+
+    }
+    div.row2 {
+        margin-top: 1.5rem;
+    }
+     div.products-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+       
+
+        width: 10.625rem;
+        height: 13rem;
+    }
+    body main section.categories div.products button {
+        position: absolute;
+     
+        background: #AF8E90;
+
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: .9rem;
+        color: rgb(255, 255, 255);
+
+        width: 5rem;
+        height: 2rem;
+
+        cursor: pointer;
+    
+    }
+    div.products img {
+        width: 10.625rem;
+        height: 13rem;
+        box-shadow: 0px 50px 70px -20px rgba(175, 142, 144, 0.3);
+    }
+
+    body main section.categories button.see-all {
+        width: 12.4375rem;
+        height: 2.5rem;
+    
+        background: #AF8E90;
+        box-shadow: 10px 25px 70px -18px rgba(175, 142, 144, 0.5);
+        border-radius: 5px;
+
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+
+        margin-top: 2.1rem;
+
+        cursor: pointer;
+    }
+
+    body main section.do-it-yourself {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 2.8rem;
+    }
+    body main  .bg-brow:last-child {
+        height: 51rem;
+        width: 100vw;
+    }
+    body main .bg-brow h2 {
+        text-align: center;
+    }
+    body main .bg-brow .title-bar{
+        background: rgb(251, 243, 230);
+        z-index: 10;
+        width: 20rem;
+        height: 3rem;
+
+        margin-top: 2.5rem;
+    }
+
+}
+@media (max-width: 400px) {
+    html {
+        font-size: 14px;
+    }
+    .fita02 {
+        width: 200px;
+    }
+}
+@media ( max-width:346px) {
+    
+    html {
+        font-size: 13px;
+    }
+    .fita01 {
+        width: 300px;
+    }
+}

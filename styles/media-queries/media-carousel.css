@@ -1,0 +1,44 @@
+@media ( max-width: 450px ) {
+.glide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+  }
+  .glide__track {
+    width:100vw;
+    height: 80vh;
+    overflow: hidden;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    list-style-type: none;
+
+    padding-inline-start: 0;
+  }
+ 
+  .glide__slides li img {
+    width:10.625rem;
+    height: 13rem;
+  }
+  ul.glide__slides {
+    width: 100%;
+    overflow: hidden;
+  }
+  .circle__btn {
+    width: 10px;
+    height: 10px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: rgb(109, 84, 86);
+
+    cursor: pointer;
+  }
+
+}
