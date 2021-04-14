@@ -89,10 +89,13 @@
         margin-top: 2.1rem;
         display: flex;
         align-items: center;
+
         flex-direction: column;
     }
     body main div.bg-brow section.our-story .title-bar {
         background-color: rgb(251, 243, 230);
+        height: 1.25rem;
+        margin-top: 2rem;
     }
     h2 {
         font-family: 'Dancing Script';
@@ -260,14 +263,16 @@
         flex-direction: column;
         align-items: center;
 
-        margin-top: 2.8rem;
+       
     }
     body main  .bg-brow:last-child {
-        height: 51rem;
+        height: 40rem;
         width: 100vw;
     }
     body main .bg-brow h2 {
         text-align: center;
+        font-size: 2.5rem;
+        margin-top: 1rem;
     }
     body main .bg-brow .title-bar{
         background: rgb(251, 243, 230);
@@ -277,6 +282,8 @@
 
         margin-top: 2.5rem;
     }
+
+  
 
 }
 @media (max-width: 400px) {
