@@ -8,6 +8,7 @@
   .glide__track {
     width:100vw;
     overflow: hidden;
+    
   }
   ul {
     display: flex;
@@ -17,15 +18,15 @@
     list-style-type: none;
 
     padding-inline-start: 0;
+
+    overflow: hidden;
+
+   
   }
  
   .glide__slides li img {
     width:10.625rem;
     height: 13rem;
-  }
-  ul.glide__slides {
-    width: 100%;
-    overflow: hidden;
   }
   .circle__btn {
     width: 10px;
@@ -36,7 +37,9 @@
 
     background-color: rgb(109, 84, 86);
 
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 
+    
     cursor: pointer;
   }
