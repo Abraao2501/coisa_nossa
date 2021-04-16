@@ -94,27 +94,19 @@
     }
     body main div.bg-brow section.our-story .title-bar {
         background-color: rgb(251, 243, 230);
+        width: 17.5rem;
         height: 1.25rem;
-        margin-top: 2rem;
+        margin-top: 1.5rem; 
+        position: absolute;
+        z-index: 100;
     }
-    h2 {
+    body main div.bg-brow section.our-story h2 {
         font-family: 'Dancing Script';
         font-weight: 400;
         font-size: 3rem;
         color: rgb(175, 142, 144);
 
         z-index: 1000;
-    }
-     div.title-bar {
-        background-color: rgb(109, 84, 86);
-
-        width: 17.5rem;
-        height: 1.25rem;
-
-        position: absolute;
-        margin-top: 1.5rem;
-
-        z-index: 100;
     }
 
     body main div.bg-brow section.our-story img {
@@ -141,6 +133,20 @@
 
     body main section.client .title-bar {
         background: rgb(251, 243, 230);
+
+        width: 17.5rem;
+        height: 1.25rem;
+        margin-top: 1.5rem; 
+        position: absolute;
+        z-index: 100;
+    }
+    body main section.client h2 {
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        font-size: 3rem;
+        color: rgb(175, 142, 144);
+
+        z-index: 1000;
     }
     body main section.client div.clients-carousel {
         display: flex;
@@ -186,7 +192,19 @@
     }
     body main section.categories .title-bar {
         background: rgb(251, 243, 230);
-        z-index: 10;
+        width: 17.5rem;
+        height: 1.25rem;
+        margin-top: 1.5rem; 
+        position: absolute;
+        z-index: 100;
+    }
+    body main section.categories h2 {
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        font-size: 3rem;
+        color: rgb(175, 142, 144);
+
+        z-index: 1000;
     }
     div.products {
         display: flex;
@@ -285,21 +303,213 @@
         z-index: 1000;
 
         overflow: hidden;
+
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        color: rgb(175, 142, 144);
     }
     body main .bg-brow-do-it .title-bar{
         background: rgb(251, 243, 230);
-
-        z-index: 100;
 
         width: 20rem;
         height: 3rem;
 
         margin-top: 3rem;
 
-       
+        position: absolute;
+        z-index: 100;
     }
 
+    body main .custom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 2.8rem;
+
+        
+    }
+   
+    .custom .title-bar {
+        background: rgb(251, 243, 230);
+        width: 20rem;
+        height: 1.25rem;
+         
+        position: absolute;
+        z-index: 100;
+
+        margin-top: 1.5rem;
+    }
+    .custom h2 {
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        font-size: 3rem;
+        color: rgb(175, 142, 144);
+        height: auto;
+        z-index: 1000;
+    }
+    .custom .row1,
+    .custom .row2,
+    .custom .row3 {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 1.5rem;
+
+        margin: 1.5rem 0 0 0;
+    }
+    .custom img {
+        width: 10rem;
+        height: 11rem;
+    }
+    .custom button {
+        width: 12.4375rem;
+        height: 2.5rem;
+    
+        background: #AF8E90;
+        box-shadow: 10px 25px 70px -18px rgba(175, 142, 144, 0.5);
+        border-radius: 5px;
+
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+
+        margin-top: 2.1rem;
+
+        cursor: pointer;
+    }
+    
+    body main .doubts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 2.8rem;
+
+        
+    }
+   
+    .doubts .title-bar {
+        background: rgb(251, 243, 230);
+        width: 20rem;
+        height: 1.25rem;
+         
+        position: absolute;
+        z-index: 100;
+
+        margin-top: 1.5rem;
+    }
+    .doubts h2 {
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        font-size: 3rem;
+        color: rgb(175, 142, 144);
+        height: auto;
+        z-index: 1000;
+    }
+    .doubts p {
+        margin-top: 2.1rem;
+        font-size: 1.125rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        color: rgb(159, 143, 137);
+
+        width: 18.25rem;
+
+    }
+    .doubts button {
+        margin-top: 2.1rem;
+        width: 14.75rem;
+        height: 2.8rem;
+
+        background: rgb(99, 226, 112);
+        color: rgb(255, 255, 255);
+
+        font-family: 'Quicksand', sans-serif;
+
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        box-shadow: 0px 30px 70px -20px rgba(99, 226, 112, 0.35);
+
+        cursor: pointer;
+    }
+    .doubts button img {
+        margin-right: 1rem;
+    }
+
+    /*Footer*/
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        background-color: rgb(74, 53, 54);
+
+        margin-top: 2.8rem;
+        height: 31rem;
+
+        padding-bottom: 5rem;
+    }
+    footer .footer-container {
+        display: flex;
+        justify-content: center;
+
+        align-items: initial;
+
+    }
+    footer .footer-container .info h2 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.125rem;
+        color: rgb(219, 186, 181);
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    footer .footer-container .info p {
+        display: flex;
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(219, 186, 181);
+        margin-top: .8rem;
+      
+    }
+    footer .footer-container .info p img {
+        color: rgb(219, 186, 181);
+        margin-right: .5rem;
+    }
+    footer .footer-container .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .footer-container .footer-logo img {
+        width: 8.7rem;
+        height: 8.8rem;
+    }
+    footer .copy  {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 400;
+
+        color:rgb(219, 186, 181);
+        margin-top: 2.1rem;
+    }
   
+}
+@media ( max-width:420px) {
+    .custom h2 {
+        font-size: 2.8rem;
+    }
 }
 @media (max-width: 400px) {
     html {
