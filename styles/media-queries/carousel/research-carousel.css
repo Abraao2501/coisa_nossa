@@ -1,0 +1,75 @@
+.glide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    margin-top: 2.1rem;
+  }
+  .glide__track {
+    width:100vw;
+    overflow: hidden;
+    
+  }
+  ul {
+    display: flex;
+    align-items: center;
+   
+
+    list-style-type: none;
+
+    padding-inline-start: 0;
+
+    overflow: hidden;
+
+   
+  }
+  .product-darlings {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      gap: 2rem;
+  }
+  .glide__slides li img {
+    width:9.375rem;
+    height: 9.9375rem;
+  }
+  .circle__btn {
+    width: 10px;
+    height: 10px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: rgb(109, 84, 86);
+
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+
+    
+    cursor: pointer;
+  }
+
+  .glide__arrows {
+      position: absolute;
+      width: 100vw;
+      height: 10vh;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      bottom: 8  !important;
+  }
+  .glide__arrows button{
+    background: transparent;
+    
+  }
+  .glide__arrows button:first-child {
+    margin-left: 1.5rem;
+  }
+  .glide__arrows button:last-child {
+    margin-right: 1.5rem;
+  }
