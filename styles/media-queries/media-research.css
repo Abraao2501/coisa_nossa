@@ -99,7 +99,7 @@
         align-items: center;
         justify-content:center;
         flex-direction: column;
-        gap: 2.5rem;
+        gap: 2rem;
     }
     .row1,
     .row2,
@@ -107,12 +107,12 @@
         display: flex;
         align-items: center;
         justify-content:center;
-        gap: 2.5rem;
+        gap: 2rem;
     }
 
     section.research-products-card .product-card {
-        width: 8.75rem;
-        height: 12.8rem;
+        width: 11rem;
+        height: 15rem;
         background-color: rgb(251, 243, 230);
 
         display: flex;
@@ -130,21 +130,21 @@
         margin: .8rem .3rem 0 0;
     }
     section.research-products-card .product-card .image-product{
-        width: 5rem;
-        height: 7rem;
+        width: 6.5rem;
+        height: 8.5rem;
 
         margin: .8rem 0 0 0 ;
     }
     section.research-products-card .product-card  p.product-name {
         font-family: 'Dancing Script';
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         color: rgb(159, 143, 137);
         font-weight: 800;
     }
     section.research-products-card .product-card button {
         background: transparent;
         font-family: Quicksand;
-        font-size: .7rem;
+        font-size: .8rem;
         font-weight: 500;
         color: #9F8F89;
         border-bottom: 2px solid #9f8f89;
