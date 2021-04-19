@@ -1,0 +1,182 @@
+@media ( max-width: 450px ) {
+    body {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-bottom: 8rem;
+    }
+    body main div.cart-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-top: 2.8rem;
+    }
+   
+    body main div.cart-header h2 {
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        font-size: 3rem;
+        color:rgba(207, 174, 169, 1);
+        z-index: 1000;
+    }
+    body main  .title-bar {
+        background-color: rgb(251, 243, 230);
+        width: 17.5rem;
+        height: 1.25rem;
+        position: absolute;
+        z-index: 100;
+
+        margin-top: 1rem;
+    }
+
+    body main section.cart-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 2.1rem;
+    }
+    body main section.cart-container .cart-image-amount {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    body main section.cart-container .cart-image-amount img {
+        width: 6rem;
+        height:6rem;
+
+    }
+    body main section.cart-container .cart-image-amount div.cart-amount-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        width: 5.4375rem;
+        margin-top: 1rem;
+    }
+    body main section.cart-container .cart-image-amount div.cart-amount-container div {
+        width: 1.8575rem;
+        height: 1.58625rem;
+    }
+    body main section.cart-container .cart-image-amount div.cart-amount-container div.minus {
+        background-color: rgba(74, 53, 54, 1);
+        color: white;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        
+    }
+    body main section.cart-container .cart-image-amount div.cart-amount-container div.amount {
+        color:rgba(74, 53, 54, 1);
+        background-color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        text-align: center;
+
+        border: 0.725px solid #4A3536;
+        box-sizing: border-box;
+    }
+    body main section.cart-container .cart-image-amount div.cart-amount-container div.plus {
+        background-color: rgba(74, 53, 54, 1);
+        color: white;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    body main section.cart-container .cart-info {
+        margin-left: 1.8rem;
+
+        display: flex;
+        flex-direction: column;
+
+        max-width: 8.5rem;
+    }
+    body main section.cart-container .cart-info h2.cart-name {
+        font-family: Dancing Script;
+        
+        font-weight: 700;
+        font-size: 1.5rem;
+
+        color: rgb(74, 53, 54);
+
+        margin-top: .5rem;
+        text-align: start;
+        height: auto;
+        word-wrap: break-word;
+       
+    }
+    body main section.cart-container .cart-info p.cart-description {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(74, 53, 54);
+
+        margin-top: .5rem;
+ 
+        text-align: start;
+        
+    }
+    body main section.cart-container .cart-info p.cart-price {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: rgb(74, 53, 54);
+
+        margin-top: .5rem;
+        text-align: start;
+    }
+    body main section.cart-container .cart-remove {
+        height: 8.58625rem;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        margin-left: 1.8rem;
+    }
+    body main section.cart-container .cart-remove  img {
+        width: .8rem;
+        height: .8rem; 
+    }
+    .next {
+        width: 10rem;
+        height: 2.5rem;
+        background: rgba(74, 53, 54, 1);
+        border-radius: 3px;
+    
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: white;
+    
+        text-align: center;
+
+        margin: 2.1rem  0 0 4.6rem;
+    }
+}
+@media ( max-width:420px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 372px) {
+    html {
+        font-size: 13px;
+    }
+}

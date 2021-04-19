@@ -1,0 +1,122 @@
+.freight-container {
+    margin-top: 2.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.freight-container .freight-input div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.freight-container .freight-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.freight-container .freight-input label {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #4A3536;
+    margin-bottom: .3rem;
+}
+.freight-container .freight-input input {
+    width: 14.3rem;
+    height: 2.3rem;
+
+    border: 1px solid #4A3536;
+    box-sizing: border-box;
+    border-radius: 5px; 
+
+    text-align: center;
+}
+.freight-container .freight-input input::placeholder {
+    color:rgba(196, 196, 196, 1);
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.freight-container .freight-input button {
+    width: 5rem;
+    height: 2rem;
+    background: rgba(74, 53, 54, 1);
+    border-radius: 3px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: white;
+
+    text-align: center;
+
+    margin: 1.6rem 0 0 .3rem;
+}
+.freight-container .freight-info {
+    margin-top: 2.1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.freight-container .freight-info p.city {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4A3536;
+
+    margin-bottom: 0.8rem;
+}
+.freight-container .freight-info .freight-time-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    padding: 0 0  .5rem 0;
+    margin-bottom: .5rem;
+
+    border-bottom: 2px solid #4A3536;
+}
+.freight-container .freight-info .freight-time-price .freight-time {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4A3536;
+
+    max-width: 9.6rem;
+}
+.freight-container .freight-info .freight-time-price .freight-price {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #4A3536;
+
+    max-width: 9.6rem;
+}
+.freight-container .freight-info .freight-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 3rem;
+    margin-bottom: 0.8rem;
+}
+.freight-container .freight-info .freight-total p:first-child {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4A3536;
+
+    max-width: 9.6rem;
+}
+.freight-container .freight-info .freight-total p.freight-total-value {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #4A3536;
+
+    max-width: 9.6rem;
+}

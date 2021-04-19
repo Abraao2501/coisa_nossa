@@ -1,0 +1,16 @@
+body header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 2rem;
+
+    background: rgb(244, 215, 217);
+}
+body header p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(183, 154, 155); 
+}
