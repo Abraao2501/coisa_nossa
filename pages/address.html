@@ -11,10 +11,7 @@
 
     <link rel="stylesheet" href="/styles/index.css" />
     <link rel="stylesheet" href="/styles/media-queries/media-header.css" />
-    <link
-      rel="stylesheet"
-      href="/styles/media-queries/media-personal-information.css"
-    />
+    <link rel="stylesheet" href="/styles/media-queries/media-address.css" />
 
     <link
       rel="shortcut icon"
@@ -31,23 +28,32 @@
 
     <main>
       <div class="personal-info-header">
-        <h2>Informações</h2>
+        <h2>Informações de Endereço</h2>
         <div class="title-bar"></div>
       </div>
       <form action="" method="GET">
-        <label for="name">Seu nome completo</label>
+        <label for="name">Estado</label>
         <input type="text" id="name" autofocus />
 
-        <label for="email">Email</label>
+        <label for="email">Cidade</label>
         <input type="text" id="email" />
 
-        <label for="phone">Número de telefone</label>
-        <input type="text" id="phone" placeholder="(00)9000-0000" />
+        <label for="phone">CEP</label>
+        <input type="text" id="phone" placeholder="00000-000" />
 
-        <label for="cpf">CPF</label>
-        <input type="text" id="cpf" placeholder="000.000.000-00" />
+        <label for="cpf">Rua / Número</label>
+        <div class="street-number">
+          <input type="text" class="street" id="street" />
+          <input type="text" class="number" placeholder="00" />
+        </div>
+        <p class="alert">
+          O pagamento será realizado Após a personalização do produto via
+          whatsapp
+        </p>
 
-        <button type="submit">Prosseguir com a compra</button>
+        <button type="submit">
+          Clique para personalizar seu produto <img src="/icons/whatsapp.svg" />
+        </button>
       </form>
     </main>
   </body>

@@ -21,13 +21,13 @@
     body main div.personal-info-header h2 {
         font-family: 'Dancing Script';
         font-weight: 400;
-        font-size: 3rem;
+        font-size: 2.8rem;
         color:rgba(207, 174, 169, 1);
         z-index: 1000;
     }
     body main  .title-bar {
         background-color: rgb(251, 243, 230);
-        width: 17.5rem;
+        width: 25rem;
         height: 1.25rem;
         position: absolute;
         z-index: 100;
@@ -64,6 +64,18 @@
 
         text-align: center;
     }
+    .street-number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .street {
+        width: 15.5rem;
+    }
+    .number {
+        width: 3rem;
+        margin-left: .5rem;
+    }
     form input::placeholder {
          
         font-family: Quicksand;
@@ -73,22 +85,48 @@
         color: #C4C4C4;
     }
     form button {
-        width: 11rem;
-        height: 3rem;
+        width: 14rem;
+        height: 4rem;
 
-        border-radius: 3px;
-        background: #4A3536;
+        border-radius: 5px;
+        background: #63E270;
         
         font-family: Quicksand;
         font-weight: 500;
-        font-size: .9rem;
+        font-size: 1rem;
         text-align: center;
         color: white;
 
         margin-top: 1.9rem;
 
-    }
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
+        padding: 1rem;
+
+    }
+    form button  {
+        margin-left: 1rem;
+    }
+    p.alert {
+          
+        font-family: Quicksand;
+        font-weight: 500;
+        font-size: .9rem;
+        text-align: center;
+        color: rgba(159, 143, 137, 1);
+        text-transform: uppercase;
+
+        width: 19rem;
+        height: 4rem;
+
+        border: 1px solid #E04B43;
+
+        padding: .8rem;
+
+        margin-top: 2.1rem;
+    }
 }
 @media ( max-width:420px) {
     html {
@@ -99,5 +137,13 @@
 @media (max-width: 372px) {
     html {
         font-size: 13px;
+    }
+}
+@media ( max-width:327px) {
+    body main div.personal-info-header  h2 {
+        font-size: 2.5rem;
+    }
+    body main  .title-bar {
+        width: 23rem;
     }
 }
