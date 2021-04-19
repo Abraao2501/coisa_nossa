@@ -10,6 +10,12 @@
         left: -2rem;
         margin-top: -2rem;
     }
+    .fita03 {
+        position: absolute;
+        left: 0rem;
+        bottom: -2rem;
+        z-index: 10;
+    }
    
     
 }

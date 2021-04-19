@@ -1,0 +1,106 @@
+@media ( max-width: 450px ) {
+    body {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-bottom: 8rem;
+    }
+    body header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 2rem;
+
+        background: rgb(244, 215, 217);
+    }
+    body header p {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 1.1rem;
+        color: rgb(183, 154, 155); 
+    }
+
+    section.fav-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.8rem;
+
+        z-index: 100;
+    }
+    
+    section.fav-container img.fav-image {
+        width: 10.6rem;
+        height: 11.25rem;
+    }
+    section.fav-container div.fav-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        height: 11.25rem;
+
+        margin-left: 1rem;
+    }
+    section.fav-container  div.fav-info h2.fav-name {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: rgba(89, 69, 70, 1);
+
+        max-width: 10.5rem;
+    }
+    section.fav-container  div.fav-info h2.fav-name  img {
+        width: .999rem;
+        height: .999rem;
+    }
+    section.fav-container  div.fav-info p.fav-description {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: rgba(159, 143, 137, 1);
+        width: 9.43rem;
+        line-height: 1.3rem;
+    }
+    section.fav-container  div.fav-info p.fav-price {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: rgba(89, 69, 70, 1);
+    }
+    section.fav-container  div.fav-info button {
+        width: 10rem;
+        height: 2rem;
+        background: rgba(89, 69, 70, 1);
+        border-radius: 3px;
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: white;
+
+        text-align: center;
+    }
+}
+@media ( max-width:420px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media( max-width: 354px ) {
+    .fita03 {
+        bottom: 2rem;
+        width: 20rem;
+    }
+}
+@media (max-width: 372px) {
+    html {
+        font-size: 13px;
+    }
+}
