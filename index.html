@@ -146,7 +146,7 @@
             </div>
           </div>
         </div>
-        <button class="see-all">Ver Todas</button>
+        <button class="see-all" onclick="abrirCategorias()">Ver Todas</button>
       </section>
 
       <div class="bg-brow-do-it">
@@ -430,5 +430,10 @@
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="/js/carousel/index-carousel.js"></script>
+    <script>
+      function abrirCategorias() {
+        window.location.href = "/pages/categories.html";
+      }
+    </script>
   </body>
 </html>

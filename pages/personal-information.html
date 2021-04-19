@@ -47,8 +47,15 @@
         <label for="cpf">CPF</label>
         <input type="text" id="cpf" placeholder="000.000.000-00" />
 
-        <button type="submit">Prosseguir com a compra</button>
+        <button type="submit" onclick="finalizarCompra()">
+          Prosseguir com a compra
+        </button>
       </form>
     </main>
+    <script>
+      function finalizarCompra() {
+        window.location.href = "/pages/address.html";
+      }
+    </script>
   </body>
 </html>

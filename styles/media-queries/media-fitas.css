@@ -16,6 +16,13 @@
         bottom: -2rem;
         z-index: 10;
     }
+    .fita04 {
+        position: absolute;
+        left: -1rem;
+        top: 5rem;
+
+        width: 18rem;
+    }
    
     
 }
