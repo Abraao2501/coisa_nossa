@@ -1,0 +1,117 @@
+@media ( max-width: 450px ) {
+    body {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    section.product-info-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.8rem;
+
+        z-index: 100;
+    }
+    
+    section.product-info-container img.product-info-image {
+        width: 10.6rem;
+        height: 11.25rem;
+    }
+    section.product-info-container div.product-info-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        height: 11.25rem;
+
+        margin-left: 2rem;
+    }
+    section.product-info-container  div.product-info-info h2.product-info-name {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: rgba(89, 69, 70, 1);
+
+        max-width: 10.5rem;
+    }
+    section.product-info-container  div.product-info-info h2.product-info-name  img {
+        width: .999rem;
+        height: .999rem;
+    }
+    section.product-info-container  div.product-info-info p.product-info-description {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: rgba(159, 143, 137, 1);
+        width: 9.43rem;
+        line-height: 1.3rem;
+    }
+    .product-info-id {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: rgba(159, 143, 137, 1);
+        width: 9.43rem;
+        line-height: 1.3rem;
+    }
+    section.product-info-container  div.product-info-info p.product-info-price {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: rgba(89, 69, 70, 1);
+    }
+    section.product-info-container  div.product-info-info button {
+        width: 10rem;
+        height: 2rem;
+        background: rgba(89, 69, 70, 1);
+        border-radius: 3px;
+
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: white;
+
+        text-align: center;
+    }
+    section.product-info {
+        margin-top: 2.8rem;
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+    section.product-info h2 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+
+        color: rgba(89, 69, 70, 1);
+
+        margin-top: 2.1rem;
+    }
+    section.product-info p.description,
+    section.product-info p.personalization {
+        font-family: 'Quicksand', sans-serif;
+        font-size: .8rem;
+        font-weight: 400;
+        color: rgba(159, 143, 137, 1);
+
+        width: 20rem;
+    }
+    
+    
+}
+@media ( max-width:420px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (max-width: 372px) {
+    html {
+        font-size: 13px;
+    }
+}
