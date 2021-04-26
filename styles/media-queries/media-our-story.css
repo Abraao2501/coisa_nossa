@@ -75,6 +75,7 @@ body section.location{
     height: 15rem; 
     width: 20.75rem;
     margin-top: 2.1rem;
+    margin-bottom: 8rem;
 }
 @media ( max-width:420px) {
     html {

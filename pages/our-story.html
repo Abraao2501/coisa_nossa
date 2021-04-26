@@ -21,25 +21,12 @@
       type="image/x-icon"
     />
 
-    <title>Coisa Nossa Decoração | Carrinho</title>
-
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-      crossorigin=""
-    />
-    <script
-      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-      crossorigin=""
-    ></script>
+    <title>Coisa Nossa Decoração | Nossa História</title>
   </head>
   <body>
     <header>
       <p>Produtos Totalmente Personalizados</p>
     </header>
-    <!--
     <div class="menu-bar">
       <div class="home">
         <a href="/index.html"><img src="/icons/home icon.svg" /></a>
@@ -53,12 +40,13 @@
       <div class="cart">
         <a href="/pages/cart.html"><img src="/icons/cart icon.svg" /></a>
       </div>
-    </div>-->
+    </div>
 
     <main>
       <section class="video">
         <h2>Quem somos nós?</h2>
         <div class="title-bar"></div>
+        <img src="/images/video 2.png" style="margin-top: 2.8rem" />
         <p class="description-story">
           Nossa loja têm como principal propósito levar o verdadeiro amor para
           as pessoas. Nossos produtos, são gestos que levam a verdadeira magia
@@ -68,11 +56,18 @@
       <section class="location">
         <h2>Localização</h2>
         <div class="title-bar"></div>
-
-        <div id="mapid"></div>
+        <div style="width: 100%" id="mapid">
+          <iframe
+            width="332"
+            height="240"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=332&amp;height=240&amp;hl=en&amp;q=cascavel%20cear%C3%A1+(My%20Business%20Name)&amp;t=h&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+        </div>
       </section>
     </main>
-
-    <script src="/js/map.js"></script>
   </body>
 </html>
