@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="theme-color" content="#F4D7D9" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F4D7D9" />
+    <meta name="msapplication-navbutton-color" content="#F4D7D9" />
+
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/media-queries/media-menu-bar.css" />
+    <link rel="stylesheet" href="/styles/media-queries/media-fitas.css" />
+    <link rel="stylesheet" href="/styles/media-queries/media-header.css" />
+    <link rel="stylesheet" href="/styles/media-queries/media-our-story.css" />
+
+    <link
+      rel="shortcut icon"
+      href="/images/coisa nossa fundo branco-min.png"
+      type="image/x-icon"
+    />
+
+    <title>Coisa Nossa Decoração | Carrinho</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <header>
+      <p>Produtos Totalmente Personalizados</p>
+    </header>
+    <!--
+    <div class="menu-bar">
+      <div class="home">
+        <a href="/index.html"><img src="/icons/home icon.svg" /></a>
+      </div>
+      <div class="search">
+        <a href="/pages/research.html"><img src="/icons/search icon.svg" /></a>
+      </div>
+      <div class="fav">
+        <a href="/pages/favorites.html"><img src="/icons/fav icon.svg" /></a>
+      </div>
+      <div class="cart">
+        <a href="/pages/cart.html"><img src="/icons/cart icon.svg" /></a>
+      </div>
+    </div>-->
+
+    <main>
+      <section class="video">
+        <h2>Quem somos nós?</h2>
+        <div class="title-bar"></div>
+        <p class="description-story">
+          Nossa loja têm como principal propósito levar o verdadeiro amor para
+          as pessoas. Nossos produtos, são gestos que levam a verdadeira magia
+          da paixão para você que cultiva o amor em tempos tão difíceis.
+        </p>
+      </section>
+      <section class="location">
+        <h2>Localização</h2>
+        <div class="title-bar"></div>
+
+        <div id="mapid"></div>
+      </section>
+    </main>
+
+    <script src="/js/map.js"></script>
+  </body>
+</html>
