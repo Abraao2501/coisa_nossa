@@ -1,0 +1,116 @@
+@media ( max-width: 450px ) {
+    body {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-bottom: 8rem;
+    }
+    body main div.header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-top: 2.8rem;
+    }
+   
+    body main div.header h2 {
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        font-size: 3rem;
+        color:rgba(207, 174, 169, 1);
+        z-index: 1000;
+    }
+    body main  .title-bar {
+        background-color: rgb(251, 243, 230);
+        width: 17.5rem;
+        height: 1.25rem;
+        position: absolute;
+        z-index: 100;
+
+        margin-top: 1rem;
+    }
+    body main .do-it-yourself p.do-it-yourself-description{
+        color: #61463D;
+        font-size: 1.1rem;
+    
+        font-family: Quicksand;
+        font-weight: 400;
+    
+        text-align: center;
+        width: 20rem;
+        margin-top: 2.1rem;
+    }
+    .product-card {
+        width: 21rem;
+        height: 9.5rem;
+        background-color: rgb(251, 243, 230);
+
+        display: flex;
+
+        justify-content: space-between;
+        
+        padding: 1rem;
+
+        position: relative;
+
+        margin-top: 2.1rem;
+    }
+    .product-card .image-product{
+        width: 6.5rem;
+        height: 8.5rem;
+    }
+    .description-container {
+        margin-left: 1rem;
+        height: 8.5rem;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .description-container p.description {
+        font-family: Quicksand;
+        font-weight: 400;
+        color: #61463D;
+        font-size: .8rem;
+    }
+    .product-card  p.product-name {
+        font-family: 'Dancing Script';
+        font-size: 1.2rem;
+        color: rgb(159, 143, 137);
+        font-weight: 800;
+    }
+    .product-card button {
+        background: #AF8E90;
+        border-radius: 5px;
+
+        width: 3.5rem;
+        height: 1.2rem;
+
+        font-family: Quicksand;
+        font-size: .6rem;
+        font-weight: 700;
+        color: #ffffff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+}
+@media ( max-width:420px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 372px) {
+    html {
+        font-size: 13px;
+    }
+}

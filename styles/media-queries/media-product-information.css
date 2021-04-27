@@ -36,6 +36,8 @@
         font-weight: 700;
         color: rgba(89, 69, 70, 1);
 
+        letter-spacing: -.7px;
+
         max-width: 10.5rem;
     }
     section.product-info-container  div.product-info-info h2.product-info-name  img {
