@@ -37,6 +37,9 @@ body section.video  {
     flex-direction: column;
     align-items: center;
 }
+body section.video img {
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.2), 0px 12px 17px rgba(0, 0, 0, 0.14), 0px 5px 22px rgba(0, 0, 0, 0.12);
+}
 body section.video  p {
     color: #61463D;
     font-size: 1.1rem;
@@ -74,6 +77,8 @@ body section.location{
 iframe {
     width: 20.75rem !important;
     height: 15rem !important;
+
+    box-shadow: 0px 9px 12px rgba(0, 0, 0, 0.2), 0px 19px 29px rgba(0, 0, 0, 0.14), 0px 7px 36px rgba(0, 0, 0, 0.12);
 }
 #mapid { 
     height: 15rem; 
