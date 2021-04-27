@@ -27,11 +27,11 @@
     justify-content: center;
     flex-direction: column;
 }
-.menu-bar div:first-child::after {
-    content: '';
+.menu-bar .point {
 
     position: absolute;
     margin-top: 2rem;
+    margin-left: 0.45rem;
 
     width: 6px;
     height: 6px;
