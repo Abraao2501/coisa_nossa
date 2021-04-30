@@ -26,16 +26,72 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    position: relative;
 }
-.menu-bar .point {
+.menu-bar .point-home {
 
     position: absolute;
-    margin-top: 2rem;
-    margin-left: 0.45rem;
+    top: 2.5rem;
 
     width: 6px;
     height: 6px;
 
     border-radius: 50%;
     background: rgb(89, 69, 70); 
+
+    transition-duration: .5s;
+    transition-delay: .1s;
+
+    display: none;
+}
+
+.menu-bar .point-search {
+    position: absolute;
+    top: 2.5rem;
+
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+    background: rgb(89, 69, 70); 
+
+    transition-duration: .5s;
+    transition-delay: .1s;
+
+    display: none;
+}
+
+.menu-bar .point-fav {
+    position: absolute;
+    top: 2.5rem;
+
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+    background: rgb(89, 69, 70); 
+
+    transition-duration: .5s;
+    transition-delay: .1s;
+
+    display: none; 
+}
+.menu-bar .point-cart {
+    position: absolute;
+    top: 2.5rem;
+
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+    background: rgb(89, 69, 70); 
+
+    transition-duration: .5s;
+    transition-delay: .1s;
+
+    display: none; 
+}
+.menu-bar .active {
+    display: block;
 }
